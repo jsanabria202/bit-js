@@ -32,7 +32,7 @@ presentar("Javier ", "Sanabria");
 */
 /*8.
  */
-function suma(a, b) {
+/*function suma(a, b) {
   return a + b;
 }
 function resta(a, b) {
@@ -77,3 +77,48 @@ ope("multiplicacion", 5, 5);
 ope("division", 5, 5);
 ope("modulo", 5, 5);
 ope("potencia", 5, 5);
+*/
+//10. Crear una función que reciba 4 números, mostrar el resultado de: a/b*(c+d)
+/*
+function operacion(a,b,c,d){
+  return (a/b)*(c+d)
+}
+let resultado = operacion(68,2,3,9);
+console.log(resultado)
+operacion(1,2,3.4);
+*/
+//11. Crear una función que reciba 2 números, imprimir el mayor
+/*
+function imprimir(a, b) {
+  if (a > b) console.log("el numero " + a + " es mayor");
+  else {
+    console.log("el numero " + b + " es mayor");
+  }
+}
+imprimir(5, 10);
+*/
+//12.Crear una función que reciba 1 número, imprimir si es negativo o si es positivo.
+/*function positivo(num1) {
+  if (num1 >= 0) console.log("el numero " + num1 + " es positivo");
+  else {
+    console.log("el numero " + num1 + " es negativo");
+  }
+}
+positivo(0);
+*/
+/*13
+
+*/
+/* 14. Crear una función que reciba 1 número, imprimir si es negativo o si es
+positivo o si es cero.
+*/
+function positivo(num1) {
+  if (num1 > 0) console.log("el numero " + num1 + " es positivo");
+
+  if (num1 === 0) console.log("el numero " + num1 + " es 0");
+  if (num1 < 0) console.log("el numero " + num1 + " es negativo");
+}
+
+positivo(0);
+positivo(5);
+positivo(-10);
