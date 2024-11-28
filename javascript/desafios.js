@@ -106,7 +106,9 @@ imprimir(5, 10);
 }
 positivo(0);
 */
-/*13
+/*13. Crear una función que reciba 2 números, imprimir si el primer número es
+divisible por el segundo.
+if
 
 */
 /* 14. Crear una función que reciba 1 número, imprimir si es negativo o si es
